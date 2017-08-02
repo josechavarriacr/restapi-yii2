@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Rest API';
 ?>
 <div class="site-index">
 
@@ -25,7 +25,7 @@ $this->title = 'My Yii Application';
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="<?=Yii::$app->urlManager->createUrl('student/')?>">GET</a></td>
+                            <td><a href="<?=Yii::$app->urlManager->createUrl('student/get')?>">GET</a></td>
                             <td><p>-----</p></td>
                         </tr>
                         <tr>
