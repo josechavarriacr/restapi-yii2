@@ -9,7 +9,7 @@ $this->title = 'Rest API';
     <div class="jumbotron">
         <h1>REST API</h1>
         <p class="lead">Simple RESTful API powered with Yii2</p>
-        <p><a class="btn btn-lg btn-success" href="<?=Yii::$app->urlManager->createUrl('student/put')?>">Try it</a></p>
+        <p><a class="btn btn-lg btn-success" href="<?=Yii::$app->urlManager->createUrl('student/get')?>">Try it</a></p>
     </div>
 
     <div class="body-content">

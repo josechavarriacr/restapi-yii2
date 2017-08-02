@@ -12,7 +12,8 @@ class StudentController extends \yii\web\Controller
 		\Yii::$app->response->format = \yii\web\Response:: FORMAT_JSON;
 		$student = Student::find()->all();
 		if(count($student) > 0 ){
-			return array('status' => true, 'data'=> $student);
+			// return array('status' => true, 'data'=> $student);
+			return $student; //the easiest way for that others can to connect with api
 		}else{
 			return array('status'=>false,'data'=> 'No Student Found');
 		}
