@@ -1,0 +1,20 @@
+#BEGIN Redirect Folder with prefix
+RewriteEngine On
+
+# handle the case of frontend
+RewriteRule .* web/$0
+
+# Uncomment the following, if you want speaking URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+/web)/.*$ $1/index.php
+#END Redirect Folder with prefix
+
+# Deny accessing below extensions
+<Files ~ "(.json|.lock|.git)">
+Order allow,deny
+Deny from all
+</Files>
+
+# Deny accessing dot files
+RewriteRule (^\.|/\.) - [F]
