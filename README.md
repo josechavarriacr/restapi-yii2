@@ -1,4 +1,4 @@
-Yii 2 Basic Project Template
+Simple example for Restfull API in Basic tempmate
 ============================
 
 Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
