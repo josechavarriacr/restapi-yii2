@@ -6,6 +6,6 @@ This is very simple example for the implementation for Restful API in Yii2 basic
 See more info (coming soon) http://en.chavarria.cr/restapi-yii2
 
 ##  Test Live App
-Demo Client - playground.chavarria.cr/restapi-yii2
+Demo Client - http://playground.chavarria.cr/restapi-yii2
 
 Demo Server - http://playground.chavarria.cr/restapi-yii2/about
